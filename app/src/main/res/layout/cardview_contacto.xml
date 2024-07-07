@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvContacto"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    card_view:cardCornerRadius="@dimen/corner_radius_cardview">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:id="@+id/imgFoto"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@mipmap/perro1_foreground"
+            android:scaleType="fitXY"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgFoto"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:id="@+id/hueso1"
+                android:layout_weight="0"
+                android:scaleType="fitStart"
+                android:src="@mipmap/bone1_foreground" />
+
+
+            <TextView
+                android:id="@+id/tvNombreCV"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="@string/pnombre"
+
+                android:textSize="@dimen/nombre_cardview"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvRaitCV"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:text="0"
+
+                android:textSize="@dimen/nombre_cardview"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/hueso2"
+
+                android:src="@mipmap/bone2_foreground" />
+
+            </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>
