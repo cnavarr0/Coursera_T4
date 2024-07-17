@@ -1,4 +1,4 @@
-package com.example.appbar2;
+package com.example.appbar2.pojo;
 
 public class Contacto {
 

@@ -1,9 +1,19 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.AppBar2" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.AppBar2" parent="Theme.Material3.Light.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <!--item name="colorPrimary">@color/defualt</item> -->
+
+
+
+
     </style>
 
     <style name="Theme.AppBar2" parent="Base.Theme.AppBar2" />
+
+    <style name="roundedImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
 </resources>

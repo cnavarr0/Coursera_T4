@@ -37,11 +37,24 @@ android {
 dependencies {
 
     implementation("androidx.appcompat:appcompat:1.6.1")
+
     implementation("com.google.android.material:material:1.11.0")
+    implementation ("com.sun.mail:javax.mail:1.6.2")
+    implementation ("javax.activation:activation:1.1.1")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     implementation("androidx.navigation:navigation-fragment:2.7.7")
     implementation("androidx.navigation:navigation-ui:2.7.7")
     implementation("androidx.cardview:cardview:1.0.0")
+    implementation("androidx.activity:activity:1.8.0")
+
+    implementation ("com.sun.mail:javax.mail:1.6.2")
+
+ //   implementation ("javax.activation:activation:1.1.1")
+//    implementation(files("libs/mail.jar"))
+//    implementation(files("libs/additional.jar"))
+ //   implementation(files("libs/activation.jar"))
+
+
 
 
     testImplementation("junit:junit:4.13.2")
