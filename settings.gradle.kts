@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Coursera_T3"
+rootProject.name = "Coursera_T4"
 include(":app")

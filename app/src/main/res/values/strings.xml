@@ -9,6 +9,8 @@
     <string name="pnombre">nombre</string>
     <string name="menu_contacto">Contacto</string>
     <string name="menu_acercade">Acerca de</string>
+    <string name="plikes">0 Likes</string>
+
 
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris

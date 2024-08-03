@@ -29,7 +29,7 @@
             android:layout_below="@+id/imgFoto"
             android:orientation="horizontal"
             >
-            <ImageView
+            <ImageButton
                 android:layout_width="40dp"
                 android:layout_height="30dp"
                 android:id="@+id/hueso1"
@@ -40,7 +40,7 @@
 
             <TextView
                 android:id="@+id/tvNombreCV"
-                android:layout_width="300dp"
+                android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:text="@string/pnombre"
 
@@ -49,9 +49,9 @@
 
             <TextView
                 android:id="@+id/tvRaitCV"
-                android:layout_width="20dp"
+                android:layout_width="70dp"
                 android:layout_height="wrap_content"
-                android:text="0"
+                android:text="@string/plikes"
 
                 android:textSize="@dimen/nombre_cardview"
                 android:textStyle="bold" />
