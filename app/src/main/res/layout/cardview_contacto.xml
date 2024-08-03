@@ -30,12 +30,12 @@
             android:orientation="horizontal"
             >
             <ImageButton
-                android:layout_width="40dp"
-                android:layout_height="30dp"
+                android:layout_width="50dp"
+                android:layout_height="35dp"
                 android:id="@+id/hueso1"
-                android:layout_weight="0"
-                android:scaleType="fitStart"
-                android:src="@mipmap/bone1_foreground" />
+
+                android:src="@mipmap/like2"
+                />
 
 
             <TextView
